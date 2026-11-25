@@ -10,3 +10,5 @@ a{color:var(--amber)}
 .icon{width:96px;height:96px;border-radius:22px;box-shadow:0 6px 20px rgba(184,111,34,.15)}
 nav{display:flex;gap:18px;flex-wrap:wrap;margin-top:28px;font-size:15px}
 ul{padding-left:22px}
+.shots{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding:6px 0 12px;margin:20px 0 4px}
+.shots img{width:230px;height:auto;flex:none;scroll-snap-align:start;border-radius:26px;border:1px solid var(--line);background:var(--card)}
